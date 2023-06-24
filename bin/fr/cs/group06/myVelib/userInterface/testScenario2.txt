@@ -1,0 +1,17 @@
+addUser Abdennacer vlibre defaultNetwork
+addUser Hatime none defaultNetwork
+rentBike 1 5
+offline defaultNetwork 8
+displayUser defaultNetwork 1
+returnBike 1 8 1000
+displayUser defaultNetwork 1
+returnBike 1 7 1000
+returnBike 1 2 200
+returnBike 1 1 200
+returnBike 1 5 200
+displayUser defaultNetwork 1
+displayStation defaultNetwork 5
+displayStation defaultNetwork 2
+sortStation defaultNetwork mostused
+sortStation defaultNetwork leastOccupied
+display defaultNetwork
