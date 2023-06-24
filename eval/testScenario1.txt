@@ -1,0 +1,5 @@
+addUser Hatim vmax defaultNetwork
+rentBike 1 5
+returnBike 1 5 200
+displayUser defaultNetwork 1
+displayStation defaultNetwork 5

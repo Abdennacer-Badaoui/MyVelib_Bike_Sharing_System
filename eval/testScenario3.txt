@@ -1,0 +1,30 @@
+setup NewVelib 5 25 1.0 0.5 4.0 
+addUser Hatim1 Vlibre NewVelib
+addUser Hatim2 Vlibre NewVelib
+addUser Hatim3 Vlibre NewVelib
+addUser Hatim4 Vlibre NewVelib
+addUser Hatim5 Vlibre NewVelib
+addUser Abddenacer1 Vlibre NewVelib
+rentBike 1 11
+rentBike 2 11
+rentBike 3 11
+rentBike 4 11
+rentBike 5 11
+rentBike 6 11
+rentBike 6 12
+returnBike 1 13 1000 
+returnBike 1 12 1000
+returnBike 2 11 1000
+returnBike 3 11 1000
+returnBike 4 11 1000
+returnBike 5 11 1000
+rentBike 6 12 
+returnBike 6 11 1000
+offline NewVelib 11
+rentBike 1 11 
+online NewVelib 11
+rentBike 1 11 
+returnBike 1 11 1000
+displayStation NewVelib 11 
+displayUser NewVelib 1
+sortStation NewVelib mostused

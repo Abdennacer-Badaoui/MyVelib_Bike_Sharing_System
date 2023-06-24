@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="fr.cs.group06.myVelib.bike.Bike" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/bike/Bike.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="250" width="254" x="827" y="369"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="fr.cs.group06.myVelib.bike.BikeFactory" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/bike/BikeFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="320" x="304" y="7"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="fr.cs.group06.myVelib.bike.MechanicalBike" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/bike/MechanicalBike.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="322" width="285" x="664" y="7"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="fr.cs.group06.myVelib.bike.ElectricalBike" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/bike/ElectricalBike.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="322" width="273" x="989" y="7"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="5">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

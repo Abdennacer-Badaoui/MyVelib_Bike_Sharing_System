@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="fr.cs.group06.myVelib.dockingStation.MostUsedComparator" 
+    project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/dockingStation/MostUsedComparator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="282" x="131" y="112"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="fr.cs.group06.myVelib.dockingStation.StartDockingStation" 
+    project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/dockingStation/StartDockingStation.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="124" width="426" x="453" y="112"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="fr.cs.group06.myVelib.myvelib.MyVelib" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/myvelib/MyVelib.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="736" width="298" x="2308" y="692"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="fr.cs.group06.myVelib.cards.RegistrationCard" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/cards/RegistrationCard.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="228" x="569" y="2100"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="fr.cs.group06.myVelib.bike.BikeFactory" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/bike/BikeFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="320" x="1385" y="112"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="fr.cs.group06.myVelib.ride.RideStrategy" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/ride/RideStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="88" width="294" x="1276" y="1468"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="fr.cs.group06.myVelib.ride.RoadParkingCostStrategy" 
+    project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/ride/RoadParkingCostStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="294" x="1306" y="692"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="fr.cs.group06.myVelib.cards.Vmax" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/cards/Vmax.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="250" width="228" x="301" y="1468"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="fr.cs.group06.myVelib.userInterface.MainCLUI" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/userInterface/MainCLUI.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="201" x="1745" y="112"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="fr.cs.group06.myVelib.cards.Vlibre" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/cards/Vlibre.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="250" width="228" x="569" y="1468"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="fr.cs.group06.myVelib.userInterface.MyVelibCLUI" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/userInterface/MyVelibCLUI.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="322" width="201" x="2308" y="330"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="fr.cs.group06.myVelib.ride.Ride" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/ride/Ride.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="304" width="448" x="818" y="692"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="fr.cs.group06.myVelib.dockingStation.LeastOccupiedStationComparator" 
+    project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/dockingStation/LeastOccupiedStationComparator.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="282" x="1986" y="112"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="fr.cs.group06.myVelib.userInterface.MyVelibGUI" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/userInterface/MyVelibGUI.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="178" width="201" x="2308" y="112"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="fr.cs.group06.myVelib.ride.FreePositionCostStrategy" 
+    project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/ride/FreePositionCostStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="294" x="1640" y="692"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="fr.cs.group06.myVelib.dockingStation.ParkingSlot" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/dockingStation/ParkingSlot.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="250" width="257" x="1215" y="2858"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="fr.cs.group06.myVelib.ride.DockingStationCostStrategy" 
+    project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/ride/DockingStationCostStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="294" x="1974" y="692"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="fr.cs.group06.myVelib.cards.RegistrationCardFactory" 
+    project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/cards/RegistrationCardFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="300" x="2549" y="112"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="fr.cs.group06.myVelib.location.Location" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/location/Location.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="228" x="921" y="2858"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="fr.cs.group06.myVelib.user.User" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/user/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="592" width="313" x="1631" y="1468"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="fr.cs.group06.myVelib.bike.ElectricalBike" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/bike/ElectricalBike.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="286" width="273" x="921" y="1468"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="fr.cs.group06.myVelib.cards.CreditCard" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/cards/CreditCard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="322" width="203" x="1688" y="2100"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="fr.cs.group06.myVelib.dockingStation.EndDockingStation" 
+    project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/dockingStation/EndDockingStation.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="124" width="426" x="919" y="112"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="24" language="java" name="fr.cs.group06.myVelib.bike.Bike" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/bike/Bike.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="250" width="254" x="1215" y="3148"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="25" language="java" name="fr.cs.group06.myVelib.dockingStation.RidesPlanning" 
+    project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/dockingStation/RidesPlanning.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="426" x="686" y="330"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="26" language="java" name="fr.cs.group06.myVelib.dockingStation.DockingStation" 
+    project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/dockingStation/DockingStation.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="718" width="391" x="1215" y="2100"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="fr.cs.group06.myVelib.bike.MechanicalBike" project="fr.cs.group06.myVelib" 
+    file="/fr.cs.group06.myVelib/src/fr/cs/group06/myVelib/bike/MechanicalBike.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="286" width="285" x="1984" y="1468"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="28">    
+    <bendpoint x="827" y="1468"/>    
+    <bendpoint x="827" y="2100"/>    
+    <bendpoint x="827" y="2858"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="29" name="bike"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="31">    
+    <bendpoint x="848" y="2100"/>    
+    <bendpoint x="848" y="2858"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <association id="32">    
+    <bendpoint x="1600" y="1468"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="33" name="dockingStations"/>      
+      <multiplicity id="34" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="36" name="user"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="38">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="39" name="startStation"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="41">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="42" name="registrationCard"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="45" name="StationLocation"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <bendpoint x="1636" y="2100"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="48" name="userLocation"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="50">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="25"/>  
+  </realization>  
+  <association id="51">    
+    <bendpoint x="1921" y="2100"/>    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="52" name="location"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <bendpoint x="930" y="2100"/>    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="55" name="location"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <bendpoint x="869" y="1468"/>    
+    <bendpoint x="869" y="2100"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="58" name="locStart"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="60">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="61">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="62" name="dockingStation"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <bendpoint x="1224" y="1468"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="65" name="dsEnd"/>      
+      <multiplicity id="66" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="67">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="68">    
+    <bendpoint x="1942" y="2100"/>    
+    <bendpoint x="1942" y="2858"/>    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="24"/>  
+  </realization>  
+  <association id="69">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="70" name="dockingStationStrategy"/>      
+      <multiplicity id="71" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="72">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="73" name="station"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="76" name="costStrategy"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="78">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="79" name="users"/>      
+      <multiplicity id="80" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="81">    
+    <bendpoint x="1245" y="1468"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="82" name="dsStart"/>      
+      <multiplicity id="83" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="84">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="85" name="creditCard"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="87">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="25"/>  
+  </realization>  
+  <association id="88">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="89" name="parkingSlots"/>      
+      <multiplicity id="90" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="92" name="dockingStation"/>      
+      <multiplicity id="93" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="95" name="dockingStationStrategy"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="97">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="98" name="networkVelibs"/>      
+      <multiplicity id="99" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="100">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="101" name="bike"/>      
+      <multiplicity id="102" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="103">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <association id="104">    
+    <bendpoint x="890" y="1468"/>    
+    <bendpoint x="890" y="2100"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="105" name="locEnd"/>      
+      <multiplicity id="106" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="107">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="108" name="myVelibCLUI"/>      
+      <multiplicity id="109" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <bendpoint x="1657" y="2100"/>    
+    <bendpoint x="1657" y="2858"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="111" name="rentedBike"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="113">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="114">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
